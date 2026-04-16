@@ -1,0 +1,1332 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eliott - Portfolio</title>
+    <link rel="icon" type="image/png" href="assets/img/logo.png" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <section class="hero-section reveal">
+      <nav>
+        <div class="logo">
+          <img
+            src="assets/img/logo.png"
+            alt=" logo"
+          />
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">A propos</a></li>
+          <li><a href="#projets">Projets</a></li>
+          <li><a href="#competences">Compétences</a></li>
+          <li><a href="#parcours">Parcours</a></li>
+        </ul>
+        <a
+          href="assets/cv/CV_Alternance_Eliott-Setif.pdf"
+          download="CV_Alternance_Eliott-Setif.pdf"
+          class="cta-button"
+        >
+          Mon CV
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-download-icon lucide-download"
+          >
+            <path d="M12 15V3" />
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+            <path d="m7 10 5 5 5-5" />
+          </svg>
+        </a>
+      </nav>
+
+      <div id="home" class="hero-content reveal">
+        <div class="hero-text">
+          <h1 class="hero-title">
+            <span class="title-muted">Développeur</span><br />
+            <span class="title-gradient"
+              ><span class="designer-first">F</span>ull-Stack</span
+            >
+          </h1>
+
+          <div class="services">
+            <div class="service-item">
+              <svg
+                class="service-icon"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-database-icon lucide-database"
+              >
+                <ellipse cx="12" cy="5" rx="9" ry="3" />
+                <path d="M3 5V19A9 3 0 0 0 21 19V5" />
+                <path d="M3 12A9 3 0 0 0 21 12" />
+              </svg>
+              <div class="service-name">Conception</div>
+            </div>
+            <div class="service-item">
+              <svg
+                class="service-icon"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <rect x="3" y="4" width="18" height="16" rx="2"></rect>
+                <line x1="3" y1="9" x2="21" y2="9"></line>
+                <line x1="8" y1="9" x2="8" y2="20"></line>
+              </svg>
+              <div class="service-name">Interfaces</div>
+            </div>
+            <div class="service-item">
+              <svg
+                class="service-icon"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-server-icon lucide-server"
+              >
+                <rect width="20" height="8" x="2" y="2" rx="2" ry="2" />
+                <rect width="20" height="8" x="2" y="14" rx="2" ry="2" />
+                <line x1="6" x2="6.01" y1="6" y2="6" />
+                <line x1="6" x2="6.01" y1="18" y2="18" />
+              </svg>
+
+              <div class="service-name">Backend</div>
+            </div>
+            <div class="service-item">
+              <svg
+                class="service-icon"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-code-xml-icon lucide-code-xml"
+              >
+                <path d="m18 16 4-4-4-4" />
+                <path d="m6 8-4 4 4 4" />
+                <path d="m14.5 4-5 16" />
+              </svg>
+              <div class="service-name">Frontend</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <h3>Construire aujourd’hui ce qui servira demain</h3>
+          <p class="ttcommons">
+            Chaque projet commence par une réflexion stratégique : comprendre,
+            anticiper les contraintes et structurer une architecture cohérente.
+            Je développe des solutions solides et évolutives, pensées pour
+            s’adapter et rester maintenables dans le temps.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projets" class="projects-section">
+      <div class="container">
+        <!-- Section header -->
+        <div class="section-header reveal">
+          <p class="section-tag">Portfolio</p>
+          <h2 class="section-title">Projets sélectionnés</h2>
+          <p class="section-description">
+            Chaque projet est une opportunité de résoudre un problème réel, avec
+            une architecture réfléchie et des choix techniques justifiés.
+          </p>
+        </div>
+
+        <!-- Projects grid -->
+        <div class="projects-grid">
+          <!-- Project card -->
+          <article class="project-card reveal">
+            <!-- Image -->
+            <div class="project-media">
+              <img
+                src="https://images.unsplash.com/photo-1611339555312-e607c8352fd7?q=80&w=1400"
+                alt="Spotify Fullstack"
+              />
+            </div>
+
+            <!-- Content -->
+            <div class="project-content">
+              <div class="project-header">
+                <div>
+                  <h3 class="project-title">Spotify Fullstack</h3>
+                </div>
+
+                <svg
+                  class="arrow-icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                >
+                  <path
+                    d="M7 17L17 7M7 7h10v10"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+
+              <p class="project-description">
+                Reproduction fonctionnelle d’une plateforme de streaming
+                musical. Authentification sécurisée, gestion d’utilisateurs,
+                playlists dynamiques et API Symfony connectée à une interface
+                React moderne.
+              </p>
+
+              <!-- Tech stack -->
+              <div class="tech-stack">
+                <span>PHP</span>
+                <span>Symfony</span>
+                <span>React</span>
+                <span>JavaScript</span>
+                <span>Tailwind</span>
+              </div>
+
+              <!-- Links -->
+              <div class="project-links">
+                <a
+                  href="https://github.com/Eliott-stf/front_react_spotify"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"
+                    />
+                    <path d="M9 18c-4.51 2-5-2-7-2" />
+                  </svg>
+                  Code source
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-media">
+              <img
+                src="assets/img/Lilas.png"
+                alt="Camping Fullstack"
+              />
+            </div>
+
+            <div class="project-content">
+              <div class="project-header">
+                <div>
+                  <h3 class="project-title">Camping Fullstack</h3>
+                </div>
+
+                <svg
+                  class="arrow-icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                >
+                  <path
+                    d="M7 17L17 7M7 7h10v10"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+
+              <p class="project-description">
+                Plateforme de réservation de logements pour un camping.
+                Fonctionnalités de création d'annonces, gestion des profils
+                utilisateurs, système de réservation avec facture, hiérarchie
+                des rôles et logique metier.
+              </p>
+
+              <div class="tech-stack">
+                <span>PHP</span>
+                <span>Symfony</span>
+                <span>React</span>
+                <span>JavaScript</span>
+                <span>Tailwind</span>
+                <span>JWT</span>
+              </div>
+
+              <div class="project-links">
+                <a
+                  href="https://github.com/Eliott-stf/Camping"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"
+                    />
+                    <path d="M9 18c-4.51 2-5-2-7-2" />
+                  </svg>
+                  Code source
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-media">
+              <img
+                src="assets/img/Creativehub.png"
+                alt="Creativehub"
+              />
+            </div>
+
+            <div class="project-content">
+              <div class="project-header">
+                <div>
+                  <h3 class="project-title">Creativehub</h3>
+                </div>
+
+                <svg
+                  class="arrow-icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                >
+                  <path
+                    d="M7 17L17 7M7 7h10v10"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+
+              <p class="project-description">
+                Hub communautaire centré sur la création et la réalisation de
+                défis. Intègre la gestion de profils, un système de commentaires
+                interactif et une interface d'administration globale.
+              </p>
+
+              <div class="tech-stack">
+                <span>PHP</span>
+                <span>Symfony</span>
+                <span>JavaScript</span>
+                <span>Tailwind</span>
+                <span>Docker</span>
+              </div>
+
+              <div class="project-links">
+                <a
+                  href="https://github.com/Eliott-stf/CreativeHub"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"
+                    />
+                    <path d="M9 18c-4.51 2-5-2-7-2" />
+                  </svg>
+                  Code source
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-media">
+              <img
+                src="assets/img/Interpol.png"
+                alt="Interpol"
+              />
+            </div>
+
+            <div class="project-content">
+              <div class="project-header">
+                <div>
+                  <h3 class="project-title">Interpol</h3>
+                </div>
+
+                <svg
+                  class="arrow-icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                >
+                  <path
+                    d="M7 17L17 7M7 7h10v10"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+
+              <p class="project-description">
+                Plateforme de signalement dédiée aux criminels et personnes
+                disparues. Architecture comprenant une section d'actualités, des
+                espaces de commentaires et une gestion stricte des rôles
+                administrateurs.
+              </p>
+
+              <div class="tech-stack">
+                <span>PHP</span>
+                <span>Symfony</span>
+                <span>Docker</span>
+                <span>Stimulus</span>
+                <span>JavaScript</span>
+              </div>
+
+              <div class="project-links">
+                <a
+                  href="https://github.com/Ropirard/interpol_project/tree/main"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"
+                    />
+                    <path d="M9 18c-4.51 2-5-2-7-2" />
+                  </svg>
+                  Code source
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="competences"
+      class="skills-section"
+      aria-labelledby="skills-heading"
+    >
+      <div class="skills-container">
+        <div class="section-header reveal">
+          <p class="section-tag">Compétences</p>
+          <h2 class="section-title">Stacks & Outils</h2>
+          <p class="section-description">
+            Langages de programmation, frameworks et logiciels exploités pour le
+            développement, l'intégration et le déploiement.
+          </p>
+        </div>
+
+        <div class="skills-category animate-fade-in-delayed">
+          <div class="divider-container">
+            <div class="divider-line bg-gradient-right"></div>
+            <span class="divider-badge">stacks</span>
+            <div class="divider-line bg-gradient-left"></div>
+          </div>
+
+          <ul
+            class="skills-grid"
+            role="list"
+            aria-label="Technologies maîtrisées"
+          >
+            <li
+              class="skill-card fade-in-item"
+              style="--hover-color: #e34f26; --hover-color-rgb: 227, 79, 38"
+              role="listitem"
+            >
+              <div class="icon-circle">
+                <i class="devicon-html5-plain" aria-label="HTML5"></i>
+              </div>
+              <span class="skill-label">HTML5</span>
+            </li>
+
+            <li
+              class="skill-card fade-in-item"
+              style="--hover-color: #1572b6; --hover-color-rgb: 21, 114, 182"
+              role="listitem"
+            >
+              <div class="icon-circle">
+                <i class="devicon-css3-plain" aria-label="CSS3"></i>
+              </div>
+              <span class="skill-label">CSS3</span>
+            </li>
+
+            <li
+              class="skill-card fade-in-item"
+              style="--hover-color: #f7df1e; --hover-color-rgb: 247, 223, 30"
+              role="listitem"
+            >
+              <div class="icon-circle">
+                <i class="devicon-javascript-plain" aria-label="JavaScript"></i>
+              </div>
+              <span class="skill-label">JavaScript</span>
+            </li>
+
+            <li
+              class="skill-card fade-in-item"
+              style="--hover-color: #61dafb; --hover-color-rgb: 97, 218, 251"
+              role="listitem"
+            >
+              <div class="icon-circle">
+                <i class="devicon-react-original" aria-label="React"></i>
+              </div>
+              <span class="skill-label">React</span>
+            </li>
+
+            <li
+              class="skill-card fade-in-item"
+              style="--hover-color: #06b6d4; --hover-color-rgb: 6, 182, 212"
+              role="listitem"
+            >
+              <div class="icon-circle">
+                <i
+                  class="devicon-tailwindcss-plain"
+                  aria-label="TailwindCSS"
+                ></i>
+              </div>
+              <span class="skill-label">TailwindCSS</span>
+            </li>
+
+            <li
+              class="skill-card fade-in-item"
+              style="--hover-color: #777bb4; --hover-color-rgb: 119, 123, 180"
+              role="listitem"
+            >
+              <div class="icon-circle">
+                <i class="devicon-php-plain" aria-label="PHP"></i>
+              </div>
+              <span class="skill-label">PHP</span>
+            </li>
+
+            <li
+              class="skill-card fade-in-item"
+              style="--hover-color: #ffffff; --hover-color-rgb: 255, 255, 255"
+              role="listitem"
+            >
+              <div class="icon-circle">
+                <i class="devicon-symfony-original" aria-label="Symfony"></i>
+              </div>
+              <span class="skill-label">Symfony</span>
+            </li>
+
+            <li
+              class="skill-card fade-in-item"
+              style="--hover-color: #4169e1; --hover-color-rgb: 65, 105, 225"
+              role="listitem"
+            >
+              <div class="icon-circle">
+                <i class="devicon-mysql-plain" aria-label="MySQL"></i>
+              </div>
+              <span class="skill-label">MySQL</span>
+            </li>
+          </ul>
+        </div>
+
+        <div
+          class="skills-category animate-fade-in-delayed"
+          style="animation-delay: 0.4s"
+        >
+          <div class="divider-container">
+            <div class="divider-line bg-gradient-right"></div>
+            <span class="divider-badge">en apprentissage</span>
+            <div class="divider-line bg-gradient-left"></div>
+          </div>
+
+          <ul
+            class="skills-grid"
+            role="list"
+            aria-label="Technologies en cours d'apprentissage"
+          >
+            <li
+              class="skill-card fade-in-item"
+              style="
+                --hover-color: #00599c;
+                --hover-color-rgb: 0, 89, 156;
+                animation-delay: 0.83s;
+              "
+              role="listitem"
+            >
+              <div class="icon-circle">
+                <i class="devicon-cplusplus-plain" aria-label="C++"></i>
+              </div>
+              <span class="skill-label">C++</span>
+            </li>
+
+            <li
+              class="skill-card fade-in-item"
+              style="
+                --hover-color: #68217a;
+                --hover-color-rgb: 104, 33, 122;
+                animation-delay: 0.9s;
+              "
+              role="listitem"
+            >
+              <div class="icon-circle">
+                <i class="devicon-csharp-plain" aria-label="C#"></i>
+              </div>
+              <span class="skill-label">C#</span>
+            </li>
+
+            <li
+              class="skill-card fade-in-item"
+              style="
+                --hover-color: #ffd43b;
+                --hover-color-rgb: 255, 212, 59;
+                animation-delay: 0.97s;
+              "
+              role="listitem"
+            >
+              <div class="icon-circle">
+                <i class="devicon-python-plain" aria-label="Python"></i>
+              </div>
+              <span class="skill-label">Python</span>
+            </li>
+
+            <li
+              class="skill-card fade-in-item"
+              style="
+                --hover-color: #61dafb;
+                --hover-color-rgb: 97, 218, 251;
+                animation-delay: 1.04s;
+              "
+              role="listitem"
+            >
+              <div class="icon-circle">
+                <i class="devicon-react-original" aria-label="React Native"></i>
+              </div>
+              <span class="skill-label">React Native</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <section class="tools-section reveal">
+  <div class="tools-container">
+    <div class="tools-left">
+      <div class="tools-grid">
+        
+        <div class="tool-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" class="tool-icon"/>
+          <span class="tool-name">VS Code</span>
+        </div>
+        
+        <div class="tool-item">
+         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jetbrains/jetbrains-original.svg" class="tool-icon" />
+          <span class="tool-name">JetBrains</span>
+        </div>
+        
+        <div class="tool-item">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" class="tool-icon"/>
+          <span class="tool-name">Figma</span>
+        </div>
+
+        <div class="tool-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" class="tool-icon" />
+
+          <span class="tool-name">Linux</span>
+        </div>
+        
+        <div class="tool-item">
+         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" class="tool-icon"/>
+          <span class="tool-name">Docker</span>
+        </div>
+        
+        <div class="tool-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" class="tool-icon"/>
+          <span class="tool-name">GitHub</span>
+        </div>
+        
+        <div class="tool-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg" class="tool-icon" />
+          <span class="tool-name">Photoshop</span>
+        </div>
+        
+      </div>
+    </div>
+    <div class="tools-right">
+      <p class="tools-description">
+        <p class="tools-description">
+  Sélection doutils fondamentaux couvrant l'ensemble du processus de réalisation, du <b>développement structuré</b> à la <b>conception créative</b>.
+</p>
+      </p>
+    </div>
+  </div>
+</section>
+    </section>
+
+    <section id="parcours" class="experience-section">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Parcours</p>
+          <h2 class="section-title">Diplomes & Expériences</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-card reveal">
+            <div class="timeline-wrapper">
+              <div class="timeline-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M21.42 10.922a2 2 0 0 0-.019-3.838L12.83 4.34a2 2 0 0 0-1.66 0L2.6 7.08a2 2 0 0 0 0 3.832l8.57 3.698a2 2 0 0 0 1.66 0z"
+                  />
+                  <path d="M22 10v6" />
+                  <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5" />
+                </svg>
+              </div>
+
+              <div class="timeline-content">
+                <div class="timeline-meta">
+                  <div>
+                    <h3 class="timeline-item-title">
+                      Prépa Développement Web & Application
+                    </h3>
+                    <p class="timeline-org">L'IDEM — LeSoler</p>
+                  </div>
+                  <div class="timeline-period">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="12"
+                      height="12"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M8 2v4" />
+                      <path d="M16 2v4" />
+                      <rect width="18" height="18" x="3" y="4" rx="2" />
+                      <path d="M3 10h18" />
+                    </svg>
+                    2026 — En cours
+                  </div>
+                </div>
+
+                <p class="timeline-description">
+                  Formation intensive couvrant les fondamentaux du développement
+                  web moderne : HTML/CSS, JavaScript, PHP, React, Symfony,
+                  Python, C++, bases de données relationnelles et méthodologies
+                  agiles.
+                </p>
+
+                <div class="timeline-highlights">
+                  <span
+                    >Conception et développement d’applications full-stack</span
+                  >
+                  <span>Architecture MVC et REST API</span>
+                  <span>Travail en équipe</span>
+                  <span>Méthodologies agiles</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline-card reveal">
+            <div class="timeline-wrapper">
+              <div class="timeline-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <rect width="20" height="14" x="2" y="7" rx="2" ry="2" />
+                  <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+                </svg>
+              </div>
+
+              <div class="timeline-content">
+                <div class="timeline-meta">
+                  <div>
+                    <h3 class="timeline-item-title">Serveur en restauration</h3>
+                    <p class="timeline-org">Le Lamparo — Argeles-sur-Mer</p>
+                  </div>
+                  <div class="timeline-period">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="12"
+                      height="12"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M8 2v4" />
+                      <path d="M16 2v4" />
+                      <rect width="18" height="18" x="3" y="4" rx="2" />
+                      <path d="M3 10h18" />
+                    </svg>
+                    Mai — Septembre 2025
+                  </div>
+                </div>
+
+                <p class="timeline-description">
+                  Service en salle au sein d’un établissement à forte affluence
+                  estivale : gestion simultanée de plusieurs tables,
+                  coordination avec la cuisine et maintien d’un bon niveau de
+                  qualité de service en environnement sous contrainte
+                  temporelle.
+                </p>
+
+                <div class="timeline-highlights">
+                  <span>Service</span>
+                  <span>Gestion des commandes et encaissements</span>
+                  <span>Travail en équipe</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline-card reveal">
+            <div class="timeline-wrapper">
+              <div class="timeline-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M21.42 10.922a2 2 0 0 0-.019-3.838L12.83 4.34a2 2 0 0 0-1.66 0L2.6 7.08a2 2 0 0 0 0 3.832l8.57 3.698a2 2 0 0 0 1.66 0z"
+                  />
+                  <path d="M22 10v6" />
+                  <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5" />
+                </svg>
+              </div>
+
+              <div class="timeline-content">
+                <div class="timeline-meta">
+                  <div>
+                    <h3 class="timeline-item-title">
+                      Licence Sciences pour l’Ingénieur – Mécanique et Matériaux
+                    </h3>
+                    <p class="timeline-org">L'EISINE — Charleville Mezière</p>
+                  </div>
+                  <div class="timeline-period">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="12"
+                      height="12"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M8 2v4" />
+                      <path d="M16 2v4" />
+                      <rect width="18" height="18" x="3" y="4" rx="2" />
+                      <path d="M3 10h18" />
+                    </svg>
+                    2024 — Diplôme obtenu
+                  </div>
+                </div>
+
+                <p class="timeline-description">
+                  Formation scientifique axée sur la modélisation et l’analyse
+                  des systèmes mécaniques et des matériaux. Approche rigoureuse
+                  des phénomènes physiques, du comportement des structures et
+                  des propriétés mécaniques à travers des outils mathématiques
+                  et numériques avancés.
+                </p>
+
+                <div class="timeline-highlights">
+                  <span>Mécanique du solide et des structures</span>
+                  <span>RDM</span>
+                  <span>Science et caractérisation des matériaux</span>
+                  <span>Modélisation mathématique et simulation numérique</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline-card reveal">
+            <div class="timeline-wrapper">
+              <div class="timeline-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <rect width="20" height="14" x="2" y="7" rx="2" ry="2" />
+                  <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+                </svg>
+              </div>
+
+              <div class="timeline-content">
+                <div class="timeline-meta">
+                  <div>
+                    <h3 class="timeline-item-title">
+                      Stage de recherche — Régénération osseuse
+                    </h3>
+                    <p class="timeline-org">
+                      Laboratoire R&D — Charleville Mezière
+                    </p>
+                  </div>
+                  <div class="timeline-period">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="12"
+                      height="12"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M8 2v4" />
+                      <path d="M16 2v4" />
+                      <rect width="18" height="18" x="3" y="4" rx="2" />
+                      <path d="M3 10h18" />
+                    </svg>
+                    2024 - 2 mois
+                  </div>
+                </div>
+
+                <p class="timeline-description">
+                  Travail expérimental et analytique sur des échafaudages
+                  biomimétiques pour favoriser la régénération osseuse :
+                  formulation et synthèse de matériaux, caractérisation
+                  microstructurale et mécanique, impressions 3D, essais
+                  mécaniques et traitement des données.
+                </p>
+
+                <div class="timeline-highlights">
+                  <span>Conception et modélisation 3D des biomatériaux</span>
+                  <span>Essais mécaniques en condition</span>
+                  <span>Caractérisation</span>
+                  <span>Analyse et visualisation des données</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline-card reveal">
+            <div class="timeline-wrapper">
+              <div class="timeline-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <rect width="20" height="14" x="2" y="7" rx="2" ry="2" />
+                  <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+                </svg>
+              </div>
+
+              <div class="timeline-content">
+                <div class="timeline-meta">
+                  <div>
+                    <h3 class="timeline-item-title">Cuisinier Snack</h3>
+                    <p class="timeline-org">Le Pain du Sud — Argeles-sur-Mer</p>
+                  </div>
+                  <div class="timeline-period">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="12"
+                      height="12"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M8 2v4" />
+                      <path d="M16 2v4" />
+                      <rect width="18" height="18" x="3" y="4" rx="2" />
+                      <path d="M3 10h18" />
+                    </svg>
+                    2022 — 2023 — Été
+                  </div>
+                </div>
+
+                <p class="timeline-description">
+                  Préparation et assemblage de produits snack en environnement à
+                  cadence élevée, gestion autonome du poste chaud/froid et
+                  respect strict des normes d’hygiène et de sécurité
+                  alimentaire.
+                </p>
+
+                <div class="timeline-highlights">
+                  <span>Préparation et cuisson</span>
+                  <span>Prise de commandes et encaissement</span>
+                  <span>Relation client</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline-card reveal">
+            <div class="timeline-wrapper">
+              <div class="timeline-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M21.42 10.922a2 2 0 0 0-.019-3.838L12.83 4.34a2 2 0 0 0-1.66 0L2.6 7.08a2 2 0 0 0 0 3.832l8.57 3.698a2 2 0 0 0 1.66 0z"
+                  />
+                  <path d="M22 10v6" />
+                  <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5" />
+                </svg>
+              </div>
+
+              <div class="timeline-content">
+                <div class="timeline-meta">
+                  <div>
+                    <h3 class="timeline-item-title">
+                      Baccalauréat Scientifique — Sciences de l’Ingénieur
+                    </h3>
+                    <p class="timeline-org">Pierre Bayle — Sedan</p>
+                  </div>
+                  <div class="timeline-period">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="12"
+                      height="12"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M8 2v4" />
+                      <path d="M16 2v4" />
+                      <rect width="18" height="18" x="3" y="4" rx="2" />
+                      <path d="M3 10h18" />
+                    </svg>
+                    2019 — Diplôme obtenu
+                  </div>
+                </div>
+
+                <p class="timeline-description">
+                  Formation générale à dominante scientifique, axée sur les
+                  mathématiques, la physique-chimie et les sciences de
+                  l’ingénieur, développant rigueur analytique, logique formelle
+                  et capacité de résolution de problèmes complexes.
+                </p>
+
+                <div class="timeline-highlights">
+                  <span
+                    >Maîtrise des fondamentaux en mathématiques et
+                    physique</span
+                  >
+                  <span>Résolution de problèmes scientifiques</span>
+                  <span>Approche et raisonnement analytique</span>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      const revealElements = document.querySelectorAll(".reveal");
+
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("active");
+              observer.unobserve(entry.target);
+            }
+          });
+        },
+        {
+          threshold: 0.15,
+        }
+      );
+
+      revealElements.forEach((el) => observer.observe(el));
+    </script>
+    <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+    <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+    <script>
+      gsap.registerPlugin(ScrollTrigger);
+
+      const hero = document.querySelector(".hero-section");
+      const heroText = document.querySelector(".hero-text");
+      const heroRight = document.querySelector(".hero-right");
+
+      // Main hero scroll interaction (guarded)
+      if (hero && heroText && heroRight) {
+        gsap
+          .timeline({
+            scrollTrigger: {
+              trigger: hero,
+              start: "top top",
+              end: "bottom top",
+              scrub: 1.2,
+            },
+          })
+          .to(
+            heroText,
+            {
+              y: -120,
+              scale: 0.92,
+              opacity: 0.85,
+              ease: "power2.out",
+            },
+            0
+          )
+          .to(
+            heroRight,
+            {
+              y: -80,
+              opacity: 0,
+              ease: "power2.out",
+            },
+            0
+          );
+
+        // Parallax effect for hero background image (::before)
+        gsap.to(hero, {
+          scrollTrigger: {
+            trigger: hero,
+            start: "top top",
+            end: "bottom top",
+            scrub: true,
+          },
+          "--hero-parallax": "120px",
+        });
+        ScrollTrigger.create({
+          trigger: hero,
+          start: "top top",
+          end: "bottom top",
+          onEnter: () => hero.classList.add("hero-active"),
+          onLeaveBack: () => hero.classList.remove("hero-active"),
+        });
+      }
+    </script>
+    <script>
+      const videos = document.querySelectorAll(".category-video");
+
+      const videoObserver = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              const p = entry.target.play && entry.target.play();
+              if (p && p.catch) p.catch(() => {});
+            } else {
+              if (entry.target.pause) entry.target.pause();
+            }
+          });
+        },
+        { threshold: 0.3 }
+      );
+
+      videos.forEach((video) => videoObserver.observe(video));
+    </script>
+    <footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-name">Eliott</div>
+
+    <div class="footer-left">
+       <img
+            src="assets/img/logo.png"
+            alt="logo"
+            class="footer-logo"
+          />
+      <p class="footer-tagline ttcommons">
+        Développement web et conception d'interfaces<br />
+        alliant rigueur technique et créativité.
+      </p>
+    </div>
+
+    <div class="footer-links">
+      <div class="footer-column">
+        <span class="footer-title">Navigation</span>
+        <a href="#home">Accueil</a>
+        <a href="#projets">Projets</a>
+        <a href="#competences">Compétences</a>
+        <a href="#parcours">Parcours</a>
+      </div>
+
+      <div class="footer-column">
+        <span class="footer-title">Réseaux</span>
+        <a href="https://github.com/Eliott-stf" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/eliott-setif-096b3736a/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom ttcommons">
+    © 2026 Eliott • Code et design sur mesure
+  </div>
+</footer>
+    <script>
+      // Register ScrollTrigger if not already done
+      gsap.registerPlugin(ScrollTrigger);
+
+      // Footer Name Swipe Animation
+      gsap.from(".footer-name", {
+        scrollTrigger: {
+          trigger: ".site-footer", // Starts when the footer enters the view
+          start: "top 90%", // Animates when footer is 90% down the screen
+          toggleActions: "play none none none",
+        },
+        x: -200, // Start 200px to the left
+        opacity: 0, // Start invisible
+        duration: 1.5, // Speed of the swipe
+        ease: "power4.out", // Smooth "deceleration" effect
+        autoAlpha: 1, // Switches visibility from hidden to visible
+        delay: 0.2, // Slight delay for a premium feel
+      });
+    </script>
+
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+    <script>
+      const isTouchDevice =
+        "ontouchstart" in window || navigator.maxTouchPoints > 0;
+
+      if (!isTouchDevice) {
+        const cursorDot = document.querySelector(".cursor-dot");
+        const cursorOutline = document.querySelector(".cursor-outline");
+        const hoverTriggers = document.querySelectorAll(
+          "a, button, .category-card, .cta-button"
+        );
+
+        let mouseX = 0,
+          mouseY = 0,
+          outlineX = 0,
+          outlineY = 0;
+
+        if (cursorDot && cursorOutline) {
+          window.addEventListener("mousemove", (e) => {
+            mouseX = e.clientX;
+            mouseY = e.clientY;
+
+            cursorDot.style.left = mouseX + "px";
+            cursorDot.style.top = mouseY + "px";
+          });
+
+          gsap.ticker.add(() => {
+            outlineX += (mouseX - outlineX) * 0.15;
+            outlineY += (mouseY - outlineY) * 0.15;
+
+            cursorOutline.style.left = outlineX + "px";
+            cursorOutline.style.top = outlineY + "px";
+          });
+
+          hoverTriggers.forEach((trigger) => {
+            trigger.addEventListener("mouseenter", () =>
+              document.body.classList.add("hovering")
+            );
+            trigger.addEventListener("mouseleave", () =>
+              document.body.classList.remove("hovering")
+            );
+          });
+        }
+      } else {
+        const cursorDot = document.querySelector(".cursor-dot");
+        const cursorOutline = document.querySelector(".cursor-outline");
+
+        if (cursorDot) cursorDot.style.display = "none";
+        if (cursorOutline) cursorOutline.style.display = "none";
+
+        document.body.style.cursor = "auto";
+      }
+    </script>
+  </body>
+</html>
